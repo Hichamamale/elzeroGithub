@@ -3,3 +3,9 @@ body
     background-color: #dddddd;
     font-family: 'Courier New', Courier, monospace;
 }
+h1
+{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+}
