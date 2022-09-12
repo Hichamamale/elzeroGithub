@@ -3,13 +3,18 @@ body
     background-color: #dddddd;
     font-family: 'Courier New', Courier, monospace;
 }
-h1
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container 
 {
-    background-color: #333333;
-<<<<<<< HEAD
-    color: #ffffff;
-=======
-    color: #FFFFFF;
->>>>>>> 06dcfb097fbfac3e50896855c1bcf04a81258dac
-    padding: 10px;
+    width: 1170px;
+    margin: auto;
+}
+.content 
+{
+    min-height: 100vh;
+    background-color: #ffffff;
 }
